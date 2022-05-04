@@ -1,0 +1,104 @@
+a {
+    all: unset;
+}
+
+@font-face {
+  font-family: 'AssaFontChalk';
+  src: url('../fonts/Assa Fonts-MonsterFonts-Type Of Chalk.otf') ;
+}
+
+@font-face {
+  font-family: 'LemonMilk-Bold';
+  src: url('../fonts/LEMONMILK-Bold.otf') ;
+}
+
+@font-face {
+  font-family: 'LemonMilk-Regular';
+  src: url('../fonts/LEMONMILK-Regular.otf') ;
+}
+
+@font-face {
+  font-family: 'LemonMilk-Light';
+  src: url('../fonts/LEMONMILK-Light.otf') ;
+}
+
+body{
+  background: url('../images/FONDO.png') ; 
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: top;
+  font-family: sans-serif;
+}
+
+#yacabron{
+  width: 399px;
+  height: auto;
+}
+
+.icon{
+  margin-top: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dias{
+  font-family: 'LemonMilk-Regular';
+  font-size: 25px;
+  letter-spacing: 4px;
+  text-align: center;
+  position: relative;
+  bottom: 40%;
+  color: white;
+}
+
+.seguinos{
+  font-family: 'LemonMilk-Light';
+  position: relative;
+  bottom: 30%;
+  text-align: center;
+  color: white;
+}
+
+.instagram{
+  position: relative;
+  font-family: 'AssaFontChalk';
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+#instagramicon{
+  position:relative;
+	width: 30px;
+  height: auto;
+  left: 15px;
+}
+
+
+
+.maps{
+  margin-top:20px;
+  font-family: 'LemonMilk-Light';
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  letter-spacing: 10px;
+}
+  
+
+
+#mapsicon{  
+  position: relative;
+  width: 30px;
+  height: auto;
+  left: 15px;
+}
+
+
+
+
